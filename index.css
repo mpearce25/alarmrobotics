@@ -1,0 +1,23 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0;
+    padding:0;
+}
+/*nav bar*/
+#nav_bar_div{
+	width: 100%;
+}
+#nav_bar_ul{
+	/*font*/
+	color: white;
+	font-size: 1.5em;
+	/*dimensions*/
+	height: 2.75em;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #8BC34A;
+}
+.nav_bar_item{
+	width: 33%;
+	display: inline-block;
+	text-align: center;
+}
