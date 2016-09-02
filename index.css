@@ -1,38 +1,31 @@
 *{   margin:0px;
     padding:0px;
 }
-
-
+body{
+	padding-top: 250px; /*height of the header must match*/
+}
 /*Header*/
-#alarm_header{
+.alarm-header{
 	background-color: #607D8B;
-	height: 200px;
+	height: 250px;
+	
 	/*text*/
 	text-align: center;
 	color:#ffffff;
 	font-family: 'Fira Sans', sans-serif;
 	font-weight: 300;
 }
-#alarm_header_team_name{
+#alarm-header-team-name{
 	font-size: 4em;
 	margin-top: 3%;
 }
-#alarm_header_team_number{
+#alarm-header-team-number{
 	font-size: 3em;
 }
  
 /*sticky nav bar*/
-.affix {
-	top:0;
-    width: 100%;
-    z-index: 9999 !important;
-  }
-  
-  .affix ~ .container-fluid {
-     position: relative;
-     top: 50px;
-  }
-#nav_bar_ul{
+.nav-bar-ul{
+	position: relative;
 	/*text*/
 	color: white;
 	font-size: 1.5em;
@@ -41,33 +34,39 @@
 	/*dimensions*/
 	list-style-type: none;
 	height: 2.75em;
+	margin-bottom: -2.75em;
 	background-color: #8BC34A;
-	margin-bottom: 0%;
-	margin: 0px;
-	padding: 0px;
+	
 	/*box shadow*/
 	z-index: 9999;
-	-webkit-box-shadow: 0px 2px 14px 2px rgba(0,0,0,0.75);
-	box-shadow: 0px 2px 12px 1px rgba(0,0,0,0.75);
-	margin-bottom: 4px; /*remove this line to get rid of little jump but lose box shadow*/
+	-webkit-box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.75);	
 }
-.nav_bar_item{
+
+.alarm-header, .nav-bar-ul-scrolled{
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.nav-bar-item{
 	width: 14.28%;
 	float: left;
 	text-align: center;
+	height: 1.5em;
 	padding-top: .625em;
-	height: 100%;
 	padding-bottom: .625em;
 	transition: .5s;
 }
 .active_page{
 	background-color: white;
-	color: black;
+	color: black;	
 }
 .link:hover{
 	background-color: #2E7D32;
 }
- li#hamburger_menu{
+
+ #hamburger-menu{
 	display: none;
 	width: 10%;
 	padding-left: 1.5%;
@@ -77,31 +76,32 @@
 	float: left;
 }
 
-#hamburger_menu_link{
+#hamburger-menu-link{
 	text-decoration: none;
 	color: white;
 }
-#hamburger_menu_title{
+#hamburger-menu-title{
 	display: none;
-	margin: auto;
 	color: white;
 	font-size: 2em;
 	float: right;
-	width: 90%;
+	width: 88%;
 	text-align: center;
+	
 }
 
 @media screen and (max-width: 680px){
-	ul#nav_bar_ul li{ display: none;}
-	ul#nav_bar_ul li#hamburger_menu{
+	.nav-bar-ul li{ display: none;}
+	.nav-bar-ul li#hamburger-menu{
 		display: inline-block;
 	}
-	ul#nav_bar_ul li#hamburger_menu_title{
+	.nav-bar-ul li#hamburger-menu-title{
 		display: inline-block;
 	}
 }
+
 @media screen and (max-width: 680px){
-	ul.standard_nav.responsive{
+	.nav-bar-ul.responsive{
 		position: absolute;}
 	ul.standard_nav.responsive li#hamburger_menu{
 		position: fixed;
@@ -118,21 +118,20 @@
 	}
 }
 
-  /**/
   
   /*intro*/
-  #intro_div{
+  #intro-div{
+	position: relative;
 	z-index: 9998;
 	background-color: white;
 	width: 100%;
-	position: relative;
   }
-  #intro_text_div{
+  #intro-text-div{
 	width: 49.7%;
 	display: inline-block;
 	
   }
-  #intro_image_div{
+  #intro-image-div{
 	width: 49.7%;
 	display: inline-block;
   }

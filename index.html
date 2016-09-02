@@ -3,60 +3,66 @@
 <head>
   <title>Alarm Robotics</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <!--external plugins-->
-  <!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
-  <!---->
-  
+
+ 
   <!--fonts-->
    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">
     <!---->
-  <link rel = "stylesheet" type="text/css" href="index.css"> <!-- make sure this is last css idk why-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+  <link rel = "stylesheet" type="text/css" href="index.css"> 
  
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="0">
+<body>
 
-<div class = "container-fluid" id = "alarm_header" >
-  <h1 id = "alarm_header_team_name">4H Alarm Robotics</h1>
-  <h2 id = "alarm_header_team_number">2079</h2>
+<div class = "alarm-header">
+  <h1 id = "alarm-header-team-name">4H Alarm Robotics</h1>
+  <h2 id = "alarm-header-team-number">2079</h2>
 </div>
 
- <ul class = "container-fluid standard_nav" id = "nav_bar_ul" data-spy="affix" data-offset-top="197">
-        <li id = "hamburger_menu"><a id = "hamburger_menu_link" href="javascript:void(0);" onclick="myFunction();">&#9776;</a></li>
-        <li id = "hamburger_menu_title">Alarm Robotics</li>
-        <li id = "nav_bar_home" class = "nav_bar_item active_page">Home</li>
-        <li id = "nav_bar_awards" class = "nav_bar_item link">Awards</li>
-        <li id = "nav_bar_faq" class = "nav_bar_item link">FAQ</li>
-        <li id = "nav_bar_events" class = "nav_bar_item link">Events</li>
-        <li id = "nav_bar_gallery" class = "nav_bar_item link">Gallery</li>
-        <li id = "nav_bar_Sponsors" class = "nav_bar_item link">Sponsors</li>
-        <li id = "nav_bar_contact" class = "nav_bar_item link">Contact</li>
-        
+ <ul class = "nav-bar-ul" id = "sticky-nav-bar">
+        <li id = "hamburger-menu"><a id = "hamburger-menu-link" href="javascript:void(0);" onclick="responsiveNavBar();">&#9776;</a></li>
+        <li id = "hamburger-menu-title">Alarm Robotics</li>
+        <li id = "nav-bar-home" class = "nav-bar-item active-page">Home</li>
+        <li id = "nav-bar-awards" class = "nav-bar-item link">Awards</li>
+        <li id = "nav-bar-faq" class = "nav-bar-item link">FAQ</li>
+        <li id = "nav-bar-events" class = "nav-bar-item link">Events</li>
+        <li id = "nav-bar-gallery" class = "nav-bar-item link">Gallery</li>
+        <li id = "nav-bar-Sponsors" class = "nav-bar-item link">Sponsors</li>
+        <li id = "nav-bar-contact" class = "nav-bar-item link">Contact</li>     
     </ul>
 
 
-<div id="intro_div" class = "container-fluid"  >
+<div id="intro-div">
   
-  <div id = "intro_text_div">
-    <h1 id = "intro_text_header">Introduction</h1>
+  <div id = "intro-text-div">
+    <h1 id = "intro-text-header">Introduction</h1>
     <h4>&nbsp;&nbsp;&nbsp;&nbsp;The Alarm 2079 robotics team is a competitive high school robotics team participating in the F.I.R.S.T. Robotics Competition (FRC) program since 2007. We strive to provide an atmosphere of excitement, a voice of experience and a reasonably equipped fabrication facility to those students motivated to solve real-word problems in design, engineering, strategy and business. <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Our team draws its membership from several towns in the southern MetroWest Area and is open to all high school students interested in any of the many facets of technology and business and willing to commit to the goals and success of the team. We are affiliated with 4H Massachusetts, and supported by parents and volunteers.</h4>
-  <h1 id = "intro_text_header">Introduction</h1>
-    <<h1 id = "intro_text_header">Introduction</h1>
-    <<h1 id = "intro_text_header">Introduction</h1>
-    <<h1 id = "intro_text_header">Introduction</h1>
-    <<h1 id = "intro_text_header">Introduction</h1>
-    <<h1 id = "intro_text_header">Introduction</h1>
-    <<h1 id = "intro_text_header">Introduction</h1>
-    <<h1 id = "intro_text_header">Introduction</h1>
-    <<h1 id = "intro_text_header">Introduction</h1>
-    <<h1 id = "intro_text_header">Introduction</h1>
-    <<h1 id = "intro_text_header">Introduction</h1>
-    <
+  <h1 id = "intro-text-header">Introduction</h1>
+    <h1 id = "intro_text_header">Introduction</h1>
+    <h1 id = "intro_text_header">Introduction</h1>
+    <h1 id = "intro_text_header">Introduction</h1>
+    <h1 id = "intro_text_header">Introduction</h1>
+    <h1 id = "intro_text_header">Introduction</h1>
+    <h1 id = "intro_text_header">Introduction</h1>
+    <h1 id = "intro_text_header">Introduction</h1>
+    <h1 id = "intro_text_header">Introduction</h1>
+    <h1 id = "intro_text_header">Introduction</h1>
+    <h1 id = "intro_text_header">Introduction</h1>
+    <h1 id = "intro_text_header">Introduction</h1>
+    <h1 id = "intro_text_header">Introduction</h1>
+    <h1 id = "intro_text_header">Introduction</h1>
+    <h1 id = "intro_text_header">Introduction</h1>
+    <h1 id = "intro_text_header">Introduction</h1>
+    <h1 id = "intro_text_header">Introduction</h1>
+    <h1 id = "intro_text_header">Introduction</h1>
+    <h1 id = "intro_text_header">Introduction</h1>
+    <h1 id = "intro_text_header">Introduction</h1>
+    <h1 id = "intro_text_header">Introduction</h1>
+    <h1 id = "intro_text_header">Introduction</h1>
+    <h1 id = "intro_text_header">Introduction</h1>
   </div>
   
   <div id = "intro_image_div">
@@ -71,15 +77,27 @@
 </body>
 </html>
 <script>
-  function myFunction(){
-   var x = document.getElementById("nav_bar_ul");
-    if (x.className == "container-fluid standard_nav affix" || x.className == "container-fluid standard_nav affix-top"){
-      x.className += " responsive";
+  var nav = $(".nav-bar-ul");
+  headerHeight = $('.alarm-header').height();
+  
+  $(window).scroll(function(){
+    if ( $(this).scrollTop()  > headerHeight){
+      nav.addClass("nav-bar-ul-scrolled");
     }
     else{
-      x.className = x.className.substr(0, x.className.length - 11);
+      nav.removeClass("nav-bar-ul-scrolled");
     }
-    
+  });
+  
+  function responsiveNavBar(){
+    var navBar = document.getElementById("sticky-nav-bar");
+    if(navBar.className == "nav-bar-ul" || navBar.className == "nav-bar-ul nav-bar-ul-scrolled" ){
+      navBar.className += (" responsive");
+    }
+    else{
+      navBar.className.substring(0,navBar.className.length - 11);
+    }
   }
+  
+  
 </script>
-
