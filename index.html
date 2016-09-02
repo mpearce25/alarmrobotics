@@ -5,9 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <!--external plugins-->
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
   <!---->
   
   <!--fonts-->
@@ -25,14 +26,17 @@
   <h2 id = "alarm_header_team_number">2079</h2>
 </div>
 
- <ul class = "container-fluid" id = "nav_bar_ul" data-spy="affix" data-offset-top="197">
-        <li id = "nav_bar_home" class = "nav_bar_item">Home</li>
-        <li id = "nav_bar_awards" class = "nav_bar_item">Awards</li>
-        <li id = "nav_bar_faq" class = "nav_bar_item">FAQ</li>
-        <li id = "nav_bar_events" class = "nav_bar_item">Events</li>
-        <li id = "nav_bar_gallery" class = "nav_bar_item">Gallery</li>
-        <li id = "nav_bar_Sponsors" class = "nav_bar_item">Sponsors</li>
-        <li id = "nav_bar_contact" class = "nav_bar_item">Contact</li>
+ <ul class = "container-fluid standard_nav" id = "nav_bar_ul" data-spy="affix" data-offset-top="197">
+        <li id = "hamburger_menu"><a id = "hamburger_menu_link" href="javascript:void(0);" onclick="myFunction();">&#9776;</a></li>
+        <li id = "hamburger_menu_title">Alarm Robotics</li>
+        <li id = "nav_bar_home" class = "nav_bar_item active_page">Home</li>
+        <li id = "nav_bar_awards" class = "nav_bar_item link">Awards</li>
+        <li id = "nav_bar_faq" class = "nav_bar_item link">FAQ</li>
+        <li id = "nav_bar_events" class = "nav_bar_item link">Events</li>
+        <li id = "nav_bar_gallery" class = "nav_bar_item link">Gallery</li>
+        <li id = "nav_bar_Sponsors" class = "nav_bar_item link">Sponsors</li>
+        <li id = "nav_bar_contact" class = "nav_bar_item link">Contact</li>
+        
     </ul>
 
 
@@ -41,6 +45,18 @@
   <div id = "intro_text_div">
     <h1 id = "intro_text_header">Introduction</h1>
     <h4>&nbsp;&nbsp;&nbsp;&nbsp;The Alarm 2079 robotics team is a competitive high school robotics team participating in the F.I.R.S.T. Robotics Competition (FRC) program since 2007. We strive to provide an atmosphere of excitement, a voice of experience and a reasonably equipped fabrication facility to those students motivated to solve real-word problems in design, engineering, strategy and business. <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Our team draws its membership from several towns in the southern MetroWest Area and is open to all high school students interested in any of the many facets of technology and business and willing to commit to the goals and success of the team. We are affiliated with 4H Massachusetts, and supported by parents and volunteers.</h4>
+  <h1 id = "intro_text_header">Introduction</h1>
+    <<h1 id = "intro_text_header">Introduction</h1>
+    <<h1 id = "intro_text_header">Introduction</h1>
+    <<h1 id = "intro_text_header">Introduction</h1>
+    <<h1 id = "intro_text_header">Introduction</h1>
+    <<h1 id = "intro_text_header">Introduction</h1>
+    <<h1 id = "intro_text_header">Introduction</h1>
+    <<h1 id = "intro_text_header">Introduction</h1>
+    <<h1 id = "intro_text_header">Introduction</h1>
+    <<h1 id = "intro_text_header">Introduction</h1>
+    <<h1 id = "intro_text_header">Introduction</h1>
+    <
   </div>
   
   <div id = "intro_image_div">
@@ -54,4 +70,16 @@
 
 </body>
 </html>
+<script>
+  function myFunction(){
+   var x = document.getElementById("nav_bar_ul");
+    if (x.className == "container-fluid standard_nav affix" || x.className == "container-fluid standard_nav affix-top"){
+      x.className += " responsive";
+    }
+    else{
+      x.className = x.className.substr(0, x.className.length - 11);
+    }
+    
+  }
+</script>
 
