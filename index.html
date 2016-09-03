@@ -23,7 +23,7 @@
 </div>
 
  <ul class = "nav-bar-ul" id = "sticky-nav-bar">        
-        <!--<li id = "hamburger-menu-title">Alarm Robotics</li>-->
+        <li id = "hamburger-menu-title">Alarm Robotics</li>
         <li id = "nav-bar-home" class = "nav-bar-item active-page">Home</li>
         <li id = "nav-bar-awards" class = "nav-bar-item link"><a href = "awards.html">Awards</a></li>
         <li id = "nav-bar-faq" class = "nav-bar-item link"><a href = "faq.html">FAQ</a></li>
@@ -106,10 +106,11 @@
   function responsiveNavBar(){
     var navBar = document.getElementById("sticky-nav-bar");
     if(navBar.className == "nav-bar-ul" || navBar.className == "nav-bar-ul nav-bar-ul-scrolled" ){
-      navBar.className += (" responsive");
+      //navBar.className += (" responsive");
+      $("#sticky-nav-bar").addClass("responsive");
     }
     else{
-      navBar.className.substring(0,navBar.className.length - 11);
+       $("#sticky-nav-bar").removeClass("responsive");
     }
   }
   
