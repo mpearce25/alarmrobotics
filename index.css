@@ -4,6 +4,10 @@
 body{
 	padding-top: 250px; /*height of the header must match*/
 }
+li a{
+	text-decoration: none;
+	color: white;
+}
 /*Header*/
 .alarm-header{
 	background-color: #607D8B;
@@ -67,55 +71,51 @@ body{
 }
 
  #hamburger-menu{
+	
+	font-size: 1.5em;
+	/*text-decoration: none;*/
+	color: black;
+	background-color: black;
 	display: none;
-	width: 10%;
-	padding-left: 1.5%;
-	font-size: 2em;
-	text-decoration: none;
-	color: white;
-	float: left;
 }
-
+/*
 #hamburger-menu-link{
 	text-decoration: none;
 	color: white;
 }
 #hamburger-menu-title{
-	display: none;
 	color: white;
 	font-size: 2em;
 	float: right;
 	width: 88%;
 	text-align: center;
-	
-}
+	display: none;
+}*/
 
-@media screen and (max-width: 680px){
-	.nav-bar-ul li{ display: none;}
-	.nav-bar-ul li#hamburger-menu{
-		display: inline-block;
-	}
-	.nav-bar-ul li#hamburger-menu-title{
-		display: inline-block;
-	}
-}
-
-@media screen and (max-width: 680px){
-	.nav-bar-ul.responsive{
-		position: absolute;}
-	ul.standard_nav.responsive li#hamburger_menu{
-		position: fixed;
-		right: 0;
-		top: 0;
-	}
-	ul.standard_nav.responsive li{
-		float: none;
+@media screen and (max-width: 700px){
+	/*ul#sticky-nav-bar{
+		display: none;
+	}*/
+	.nav-bar-item {
+		display: none;
+		
+		
+		}
+	#hamburger-menu{
 		display: inline;
+		float: left;
+		height: 1.5em;
+		padding-top: .17em;
+		padding-bottom: .17em;
+		
+		width: 10%;
 	}
-	ul.standard_nav li a{
-		display: block;
-		text-align: left;
+	#hamburger-menu-link{
+		margin-left: 15%;
 	}
+	
+	
+
 }
 
   
@@ -125,15 +125,15 @@ body{
 	z-index: 9998;
 	background-color: white;
 	width: 100%;
+	padding-top: 4em;
+	display: block;
   }
   #intro-text-div{
 	width: 49.7%;
-	display: inline-block;
 	
   }
   #intro-image-div{
 	width: 49.7%;
-	display: inline-block;
   }
    
   
