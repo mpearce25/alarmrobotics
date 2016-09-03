@@ -32,13 +32,13 @@ li a{
 	position: relative;
 	/*text*/
 	color: white;
-	font-size: 1.5em;
+	font-size: 25px;
 	font-family: 'ABeeZee', sans-serif;
 	font-weight: 300;
 	/*dimensions*/
 	list-style-type: none;
-	height: 2.75em;
-	margin-bottom: -2.75em;
+	height: 65px;
+	margin-bottom: -65px;
 	background-color: #8BC34A;
 	
 	/*box shadow*/
@@ -57,9 +57,9 @@ li a{
 	width: 14.28%;
 	float: left;
 	text-align: center;
-	height: 1.5em;
-	padding-top: .625em;
-	padding-bottom: .625em;
+	height: 35px;
+	padding-top: 20px;
+	padding-bottom: 10px;
 	transition: .5s;
 }
 .active-page{

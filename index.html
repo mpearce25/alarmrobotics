@@ -4,7 +4,6 @@
   <title>Alarm Robotics</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
- 
   <!--fonts-->
    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500" rel="stylesheet">
@@ -35,19 +34,6 @@
 
     </ul>
  
- <!--<ul class = "nav-bar-ul responsive" id  = "mobile-sticky-nav-bar">
-    <li id = "hamburger-menu"><a id = "hamburger-menu-link" href="javascript:void(0);" onclick="responsiveNavBar();">&#9776;</a></li>
-    <li id = "hamburger-menu-title">Alarm Robotics</li>
-    
-     <li id = "nav-bar-home-mobile" class = "active-page mobile-nav-links">Home</li>
-        <li id = "nav-bar-awards-mobile" class = "mobile-nav-links">Awards</li>
-        <li id = "nav-bar-faq-mobile" class = "mobile-nav-links">FAQ</li>
-        <li id = "nav-bar-events-mobile" class = "mobile-nav-links">Events</li>
-        <li id = "nav-bar-gallery-mobile" class = "mobile-nav-links">Gallery</li>
-        <li id = "nav-bar-Sponsors-mobile" class = "mobile-nav-links">Sponsors</li>
-        <li id = "nav-bar-contact-mobile" class = "mobile-nav-links">Contact</li>  
- </ul>-->
-
 
 <div id="intro-div">
   
@@ -82,19 +68,17 @@
   
   <div id = "intro_image_div">
     <h1>image goes here</h1>
-
   </div>
   
- 
 </div>
 
 
 </body>
 </html>
+
 <script>
   var nav = $(".nav-bar-ul");
   headerHeight = $('.alarm-header').height();
-  
   $(window).scroll(function(){
     if ( $(this).scrollTop()  > headerHeight){
       nav.addClass("nav-bar-ul-scrolled");
@@ -107,13 +91,10 @@
   function responsiveNavBar(){
     var navBar = document.getElementById("sticky-nav-bar");
     if(navBar.className == "nav-bar-ul" || navBar.className == "nav-bar-ul nav-bar-ul-scrolled" ){
-      //navBar.className += (" responsive");
       $("#sticky-nav-bar").addClass("responsive");
     }
     else{
        $("#sticky-nav-bar").removeClass("responsive");
     }
   }
-  
-  
 </script>
