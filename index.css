@@ -109,18 +109,7 @@ li a {
     padding-bottom: 12px;
 }
 /*end sticky nav*/
-/*home page responsive design*/
-@media screen and (max-width: 720px){
-	 /*header*/
-	#alarm-header-team-name {
-		font-size: 48px;
-		margin-top: 5%;
-	}
-	#alarm-header-team-number {
-		font-size: 35px;
-		margin-top: 5%;
-	}
-}
+
 /*nav bar responsive desigm*/
 @media screen and (max-width: 720px) {
 	#nav-bar-filler{
@@ -214,41 +203,119 @@ li a {
 	-webkit-box-shadow: 0px -2px 10px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 0px -2px 10px 0px rgba(0, 0, 0, 0.75);
 }
+
+#contact-email-div{
+	width: 72%;
+	display: inline-block;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	padding-left: 3%;
+	vertical-align: middle;
+}
+#contact-social-media-div{
+	width: 24%;
+	display: inline-block;
+	overflow: hidden;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	vertical-align: middle;
+}
+
+#email-icon{	
+	height: 30px;
+	width: 44px;
+}
 #contact-email-text{
 	color: white;	
 	display: inline-block;
 	font-family: 'Fira Sans', sans-serif;
     font-weight: 400;
-	font-size: 25px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	margin-left: 2%;
+	font-size: 20px;
+	padding-left: 2%;
+	vertical-align: top;
+	
 }
 .social-media-icon{
+	width: 30px;
+	height: 30px;
+}
+
+#social-media-list{
+	list-style-type: none;
+	
+	width: 100%;	
+}
+.social-media-icon-li{
+	width: 33%;
 	float: right;
 	display: inline;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	
+	
+	
 }
 
 #twitter-icon{
-	padding-top: 18px;
 	height: 25px;
 	width: 31px;
 }
 
-#instagram-icon{
+/*#instagram-icon{
 	height: 29px;
 	width: 29px;
-	padding-top: 16px;
-	margin-left: 1.5%;
-	margin-right: 4%;
+	/*padding-top: 16px;*/
+	/*margin-left: 1.5%;
+	margin-right: 4%;*/
 }
-#facebook-icon{
+/*#facebook-icon{
 	height: 29px;
 	width: 29px;
-	margin-left: 1.5%;
-	padding-top: 16px;
+	/*margin-left: 1.5%;*/
+	/*padding-top: 16px;*/
+}
+
+/*#design-credits{
+	color: white;	
+	display: inline-block;
+	font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+	font-size: 20px;
+	padding-top: 12.5px;
+	padding-bottom: 12.5px;
+	margin-left: 2%;
+	
+}
+
+#design-credits-link{
+	color: white;
+}*/
+
+
+
+/*home page responsive design*/
+@media screen and (max-width: 720px){
+	 /*header*/
+	#alarm-header-team-name {
+		font-size: 48px;
+		margin-top: 5%;
+	}
+	#alarm-header-team-number {
+		font-size: 35px;
+		margin-top: 5%;
+	}
+	
+	/*footer*/
+	#contact-email-text{
+		font-size: 18px;
+		margin: 0;
+		width: 100%;
+		text-align: center;
+	}
+	#email-icon{
+		display: none;
+	}
+	.social-media-icon{
+		
+	}
 }
 
 /*animation fades */
