@@ -13,7 +13,7 @@
 /*sticky nav bar*/
 
 .nav-bar-ul {
-    position: fixed;
+    position: relative;
     /*text*/
     
     color: white;
