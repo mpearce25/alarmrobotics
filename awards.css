@@ -2,36 +2,18 @@
     margin: 0px;
     padding: 0px;
 }
-body {
-    padding-top: 100px;
-    /*height of the header must match*/
-}
-li a {
+
+.nav-bar-ul a {
     text-decoration: none;
     color: white;
 }
 /*Header*/
 
-.alarm-header {
-    background-color: #607D8B;
-    height: 100px;
-    /*text*/
-    
-    
-    color: #ffffff;
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: 300;
-}
-#alarm-header-team-name {
-    font-size: 40px;
-	text-align: center;
-	padding-top: 20px;
-}
 
 /*sticky nav bar*/
 
 .nav-bar-ul {
-    position: relative;
+    position: fixed;
     /*text*/
     
     color: white;
