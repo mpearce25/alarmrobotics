@@ -225,6 +225,9 @@ li a {
 	height: 30px;
 	width: 44px;
 }
+#email-link-text{
+	color: white;
+}
 #contact-email-text{
 	color: white;	
 	display: inline-block;
@@ -232,8 +235,7 @@ li a {
     font-weight: 400;
 	font-size: 20px;
 	padding-left: 2%;
-	vertical-align: top;
-	
+	vertical-align: top;	
 }
 .social-media-icon{
 	width: 30px;
@@ -241,36 +243,19 @@ li a {
 }
 
 #social-media-list{
-	list-style-type: none;
-	
+	list-style-type: none;	
 	width: 100%;	
 }
 .social-media-icon-li{
 	width: 33%;
 	float: right;
-	display: inline;
-	
-	
-	
+	display: inline-block;
+	text-align: center;
 }
 
 #twitter-icon{
 	height: 25px;
 	width: 31px;
-}
-
-/*#instagram-icon{
-	height: 29px;
-	width: 29px;
-	/*padding-top: 16px;*/
-	/*margin-left: 1.5%;
-	margin-right: 4%;*/
-}
-/*#facebook-icon{
-	height: 29px;
-	width: 29px;
-	/*margin-left: 1.5%;*/
-	/*padding-top: 16px;*/
 }
 
 /*#design-credits{
@@ -313,8 +298,18 @@ li a {
 	#email-icon{
 		display: none;
 	}
-	.social-media-icon{
-		
+	#contact-email-div{
+		width: 100%;
+		margin: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+		text-align: center;
+	}
+	#contact-email-text{
+		padding: 0;
+	}
+	#contact-social-media-div{
+		width: 100%;
 	}
 }
 
