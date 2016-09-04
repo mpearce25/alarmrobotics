@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body {
-    padding-top: 250px;
+    padding-top: 100px;
     /*height of the header must match*/
 }
 li a {
@@ -14,21 +14,20 @@ li a {
 
 .alarm-header {
     background-color: #607D8B;
-    height: 250px;
+    height: 100px;
     /*text*/
     
-    text-align: center;
+    
     color: #ffffff;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 300;
 }
 #alarm-header-team-name {
-    font-size: 70px;
-    margin-top: 2%;
+    font-size: 40px;
+	text-align: center;
+	padding-top: 20px;
 }
-#alarm-header-team-number {
-    font-size: 48px;
-}
+
 /*sticky nav bar*/
 
 .nav-bar-ul {
