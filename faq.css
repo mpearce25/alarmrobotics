@@ -24,7 +24,7 @@ body {
 }
 #alarm-header-team-name {
     font-size: 50px;
-    margin-top: 1%;
+    margin-top: 12.5px;
 	margin-left: 5%;
 	text-align: center;
 }
@@ -117,6 +117,13 @@ body {
 
 /*nav bar responsive desigm*/
 @media screen and (max-width: 720px) {
+	 /*header*/
+	#alarm-header-team-name {
+		font-size: 35px;
+		margin-top: 32.5px;
+		line-height: 1.1;
+	}
+	
 	#nav-bar-filler{
 		display: block;
 		width: 100%;
@@ -170,6 +177,14 @@ body {
         background-color: #FF6F00;
         color: white;
     }
+}
+
+@media screen and (max-width: 414px){
+	#alarm-header-team-name {
+		font-size: 35px;
+		margin-top: 15px;
+		line-height: 1.1;
+	}
 }
 
 /*intro*/
@@ -282,12 +297,7 @@ body {
 
 /*home page responsive design*/
 @media screen and (max-width: 720px){
-	 /*header*/
-	#alarm-header-team-name {
-		font-size: 35px;
-		margin-top: 2.5%;
-		line-height: 1.1;
-	}
+	
 	
 	/*main content*/
 	#intro-text-div{
