@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alarm Robotics</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--fonts-->
+   <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">
+    <!---->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+  <link rel = "stylesheet" type="text/css" href="faq.css"> 
+ 
+</head>
+<body>
+
+<div class = "alarm-header">
+  <h1 id = "alarm-header-team-name">4H Alarm Robotics 2079</h1>
+</div>
+
+ <ul class = "nav-bar-ul" id = "sticky-nav-bar">        
+        <li id = "hamburger-menu-title">Alarm Robotics</li>
+        <li id = "hamburger-menu"><a id = "hamburger-menu-link" href="javascript:void(0);" onclick="responsiveNavBar();">&#9776;</a></li>
+        <li id = "nav-bar-filler"></li><!--only needed on home page - makes so green doesnt cover up hamburger icon-->
+        <a href = "index.html"><li id = "nav-bar-home" class = "nav-bar-item link">Home</li></a>
+        <a href = "awards.html"><li id = "nav-bar-awards" class = "nav-bar-item link">Awards</li></a>
+        <li id = "nav-bar-faq" class = "nav-bar-item active-page">FAQ</li>
+        <a href = events.html"><li id = "nav-bar-events" class = "nav-bar-item link">Events</li></a>
+        <a href = "gallery.html"><li id = "nav-bar-gallery" class = "nav-bar-item link">Gallery</li></a>
+        <a href = "sponsors.html"><li id = "nav-bar-Sponsors" class = "nav-bar-item link">Sponsors</li></a>
+        <a href = "contact.html"><li id = "nav-bar-contact" class = "nav-bar-item link">Contact</li></a>
+        
+
+    </ul>
+ 
+
+<div id="intro-div">
+  <div id = "intro-text-div">
+    
+    <h1 id = "intro-text-header">What is First Robotics?</h1>
+    <h4 id = "intro-text-description">FIRST, or For Inspiration of Science and Technology, is an organization co-founded by Dr. Dean Kamen and Dr. Woody Flowers in order to inspire kids to pursue careers in science, technology, engineering and mathematics.  This is a non-profit public charity that designs accessible, innovative programs that motivate young people to pursue education and career opportunities in science, technology, engineering, and math, while building self-confidence, knowledge and life skills.In 2014, FRC will reach 71,000 high-school students representing approximately 2,850 teams. </h4>
+  
+    <h1 id = "intro-text-header">What is the Build Season?</h1>
+    <h4 id = "intro-text-description">The Build Season is a six week long period from the first Saturday in January to mid-February. The kids and mentors use this time to design, build, and test the robot.</h4>
+  
+     <h1 id = "intro-text-header">Where are the meetings held?</h1>
+    <h4 id = "intro-text-description">We are located at 115 Dean Ave. in Franklin MA on the fourth floor.  We have our own working shop with all of our tools and equipment. </h4>
+    
+    <h1 id = "intro-text-header">Is it only for aspiring engineers? </h1>
+    <h4 id = "intro-text-description">No! anyone can join, most kids come with no prior knowledge to robotics.  So if you think you might like it, come and check it out!</h4>
+    
+    <h1 id = "intro-text-header">What are your team values?</h1>
+    <h4 id = "intro-text-description">We encourage creative thinking and seek different opinions.  WE are open-minded, diverse, optimistic and flexible. We are gracious in our candor and honesty. We are loyal, helpful and respectful to all.  We strive to be recognized as a positive influence and a source of pride. </h4>
+    
+    <h1 id = "intro-text-header">How can I get involved?</h1>
+    <h4 id = "intro-text-description">You can email any of the mentors, or just stop in.  We rely heavily on volunteers to bring supplies like food and drinks, run errands, organize transportation, and search for sponsors. Any help is greatly appreciated. </h4>
+    
+    <h1 id = "intro-text-header">Who is allowed to join the team? </h1>
+    <h4 id = "intro-text-description">Any high school students in the area.  If you are in 7th or 8th grade and would like to come and see what happens, you are more than welcome!</h4>
+    
+    <h1 id = "intro-text-header">What does A.L.A.R.M. stand for?</h1>
+    <h4 id = "intro-text-description">ALARM stands for &#8220;A lot of Awesome Robot Makers&#8221; and we are team number 2079.</h4>
+    
+     <h1 id = "intro-text-header">What is the mission?</h1>
+    <h4 id = "intro-text-description">We celebrate teamwork, creativity, hard work, and gracious professionalism; To provide real world hands on experience in design, engineering, communication, strategy and business in a supportive community of parents, mentors, and technology professionals.</h4>
+    
+     <h1 id = "intro-text-header">Where are your team members from?</h1>
+    <h4 id = "intro-text-description">We are registered as the Millis High School team because FIRST requires each team to have a school sponsor, but we have kids from many surrounding towns, including but not limited to: Holliston, Millis, Medway, Plainville, Franklin, Norfolk, and Wrentham.</h4>
+    
+     <h1 id = "intro-text-header">What type of organization is your team?</h1>
+    <h4 id = "intro-text-description">We are a non-profit independent organization supported by parents, volunteers, and corporate sponsors and receive no financial assistance from the school department.</h4>
+    
+     <h1 id = "intro-text-header">Why do you need sponsors?</h1>
+    <h4 id = "intro-text-description">We need sponsors to pay for different expenses involving making the robot.  Every single nut and bolt costs money and we need as much as we can get.  All the tools and equipment we use costs money, and we use sponsors to help us out with those costs.</h4>
+    
+     <h1 id = "intro-text-header">What can I get involved in when I join the team?</h1>
+    <h4 id = "intro-text-description">You can get involved in either Mechanics, Programming, Logistics, and Electrical.  THe mechanical section of the team focuses on the creation and fabrication of the robot.  THey utilize various machines such as lathes, drill presses, band saws, table saws, and mills.  The programmers use LabView to program the robot to perform various tasks.  Some of these tasks include, making the robot move, changing the speeds of the motors, and just about everything else that causes a robot to be a robot and not just a piece of metal.  The logistics portion of the team deals with getting sponsors, organization, and all of the other administrative tasks.  The electrical team has one of the most important jobs of the team.  They are responsible for wiring the robot which allows it to be programmed.</h4>
+    
+    <h1 id = "intro-text-header">Where are the competitions?</h1>
+    <h4 id = "intro-text-description">The Competitions are spread throught New England and the ones we go to change every year.</h4>
+    
+     <h1 id = "intro-text-header">When do you meet?</h1>
+    <h4 id = "intro-text-description">In the offseason we meet on Wednesdays from 7-9 and Saturdays at a time TBD.</h4>
+    
+     <h1 id = "intro-text-header">Where is the furthest the team has gone for a competition?</h1>
+    <h4 id = "intro-text-description">Atlanta, Georgia</h4>
+  </div>
+  
+</div>
+
+
+
+<!--contact us-->
+<div id = "contact-div">
+   <div id = "contact-email-div"><a href = "mailto:info@alarmrobotics.com"><img src = "images/social-media/web-ready/email-icon-white-rounded.png" id = "email-icon"></a>
+   <h2 id = "contact-email-text">Contact Us: <a href= "mailto:info@alarmrobotics.com" id = "email-link-text">info@alarmrobotics.com</a></h2>
+   </div>
+   
+   <div id = "contact-social-media-div">
+   <ul id = "social-media-list">
+   <li class = "social-media-icon-li"><img src = "images/social-media/web-ready/instagram-icon-white.png" id = "instagram-icon" class = "social-media-icon"></li>
+    <li class = "social-media-icon-li"><a href = "https://www.facebook.com/4H-FIRST-Robotics-Team-2079-ALARM-599139233487927/"><img src = "images/social-media/web-ready/facebook-icon-white.png" id = "facebook-icon" class = "social-media-icon"></a> </li>
+    <li class = "social-media-icon-li"><a href = "https://twitter.com/alarm_robotics"><img src = "images/social-media/web-ready/twitter-icon-white.png" id = "twitter-icon" class = "social-media-icon"></a> <li>
+   </ul>
+   </div>
+  </div>
+
+
+
+
+</body>
+</html>
+
+<script>
+  var nav = $(".nav-bar-ul");
+  headerHeight = $('.alarm-header').height();
+  $(window).scroll(function(){
+    if ( $(this).scrollTop()  > headerHeight){
+      nav.addClass("nav-bar-ul-scrolled");
+    }
+    else{
+      nav.removeClass("nav-bar-ul-scrolled");
+    }
+  });
+  
+  function responsiveNavBar(){
+    var navBar = document.getElementById("sticky-nav-bar");
+    if(navBar.className == "nav-bar-ul" || navBar.className == "nav-bar-ul nav-bar-ul-scrolled" ){
+      $("#sticky-nav-bar").addClass("responsive");
+    }
+    else{
+       $("#sticky-nav-bar").removeClass("responsive");
+    }
+  }
+</script>
